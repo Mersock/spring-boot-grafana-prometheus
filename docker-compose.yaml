@@ -32,7 +32,7 @@ services:
     restart: unless-stopped
     user: root
     ports:
-      - 3000:3000 # access grafana url
+      - 3100:3000 # access grafana url
     volumes:
       - ./data/grafana:/var/lib/grafana
     environment:
