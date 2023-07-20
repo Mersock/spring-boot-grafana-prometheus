@@ -18,8 +18,8 @@ spec:
         prometheus.io/path: "/metric"
     spec:
       containers:
-        - name: demoapp
-          image: mersock/demoapp:1
+        - name: spring_boot
+          image: spring_boot:1
           imagePullPolicy: Never
           ports:
             - containerPort: 8080
